@@ -1,7 +1,7 @@
 # InvestAnswerIndicatorsSignals
 Indicators with settings inspired from https://InvestAnswers.us Foudner James from https://www.patreon.com/InvestAnswers also you can find him on YouTube at https://www.youtube.com/channel/UClgJyzwGs-GyaNxUHcLZrkg | Fan made.
 
-## Login behind this EA:
+## Logic behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
 
 1) When Moving Average Cross Indicator is Bullish (50 MA is above 200 MA) and price low is equal or below 200 MA, We get a Strong Buy signal.
