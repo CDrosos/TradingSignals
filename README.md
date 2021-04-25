@@ -34,13 +34,18 @@ To access MetaTrader 4 installation folder:
 Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder. Open MetaTrader 4, right click on the chart and select **Template/Load Template** and select *SMA20-MACO-RSI.tpl* file.
 
 Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
-Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswersSignlas** from Expert Advisors tab to add this Expert Advisor to your chart.
+Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswersSignlas** from Expert Advisors tab to add this Expert Advisor to your chart. Once you included in your chart, it will show some options you can configure like where to get signal alerts or what settings to use on the Moving Average's.
 
 ## How to Setup Mobile Notifications:
 1) Make sure from the Expert Advisor's Options that Mobile alerts are on.
-4) On your Mobile download the MetaTrader 4 App.
-5) Press **Menu/Settigns** and scroll down and find in the Messages section your **MetaQuotes ID**.
-6) Add this ID to your Meta Trader 4 PC app on **Tools/Options/Notifications** at **MetaQuotes ID**.
+2) On your Mobile download the MetaTrader 4 App.
+3) Press **Menu/Settigns** and scroll down and find in the Messages section your **MetaQuotes ID**.
+4) Add this ID to your Meta Trader 4 PC app on **Tools/Options/Notifications** at **MetaQuotes ID**.
+
+## How to Setup Email Alerts:
+1) Make sure from the Expert Advisor's Options that Email alerts are on.
+2) From MetaTrader 4, go to **Tools/Options/Email**.
+3) Add your email settings.
 
 ## Tip Jar
 Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
