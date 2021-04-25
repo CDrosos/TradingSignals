@@ -48,4 +48,4 @@ Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswe
 3) Add your email settings.
 
 ## Tip Jar
-Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
+Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated :sparkling_heart:. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
