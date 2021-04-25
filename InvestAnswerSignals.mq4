@@ -124,25 +124,25 @@ string GetIndicatorsAlertMessages()
 
    double currentRSI = GetRSI();
    if(currentRSI>70)
-      returnMessage += "RSI above 70, Sell signal. ";
+      returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "RSI above 70, Sell signal. ";
    else
       if(currentRSI<30)
-         returnMessage += "RSI below 30, Buy signal. ";
+         returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "RSI below 30, Buy signal. ";
 
    MACrossSignal maCrossValue = GetMACD();
    switch(maCrossValue)
      {
       case BullMarket_PriceTouchLowerMA :
-         returnMessage += "MAC Signal, price below the lower MA in a Bullish market. Strong Buy signal. ";
+         returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "MAC Signal, price below the lower MA in a Bullish market. Strong Buy signal. ";
          break;
       case BullishCross :
-         returnMessage += "MAC Crossover, strong Buy Signal. ";
+         returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "MAC Crossover, strong Buy Signal. ";
          break;
       case BearishCross :
-         returnMessage += "MAC Crossover, strong Sell Signal. ";;
+         returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "MAC Crossover, strong Sell Signal. ";;
          break;
       case BearMarket_PriceTouchHigherMA :
-         returnMessage += "MAC Signal, price above the higher MA in a Bearish market. Sell signal. ";
+         returnMessage += Symbol() + " - " + GetTimeFrame(Period()) + " - " + "MAC Signal, price above the higher MA in a Bearish market. Sell signal. ";
          break;
      }
 
@@ -181,6 +181,26 @@ void AlertUser(string message)
 
    Print(message);
   }
+  
+ //+---------------------------------------------------------------------+
+//| GetTimeFrame function - returns the textual timeframe               |
+//+---------------------------------------------------------------------+
+string GetTimeFrame(int lPeriod)
+   {
+      switch(lPeriod)
+      {
+      case 1: return("M1");
+      case 5: return("M5");
+      case 15: return("M15"); 
+      case 30: return("M30");
+      case 60: return("H1");
+      case 240: return("H4");
+      case 1440: return("D1");
+      case 10080: return("W1"); 
+      case 43200: return("MN1"); 
+      }
+   return IntegerToString(lPeriod);
+   }
 
 //+------------------------------------------------------------------+
 //+------------------------------------------------------------------+
