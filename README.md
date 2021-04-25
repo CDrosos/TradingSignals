@@ -1,5 +1,5 @@
 # InvestAnswerIndicatorsSignals
-Indicators with settings inspired from https://InvestAnswers.us Foudner James from https://www.patreon.com/InvestAnswers | Fan made .
+Indicators with settings inspired from https://InvestAnswers.us Foudner James from https://www.patreon.com/InvestAnswers also you can find him on YouTube at https://www.youtube.com/channel/UClgJyzwGs-GyaNxUHcLZrkg | Fan made.
 
 ## Login behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
@@ -38,3 +38,6 @@ Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQ
 5) On your Mobile download the MetaTrader 4 App
 6) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID
 7) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
+
+## Tip Jar
+Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: 
