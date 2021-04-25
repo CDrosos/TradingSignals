@@ -39,8 +39,8 @@ Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswe
 ## How to Setup Mobile Notifications:
 1) Make sure from the Expert Advisor's Options that Mobile alerts are on.
 4) On your Mobile download the MetaTrader 4 App.
-5) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID.
-6) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
+5) Press **Menu/Settigns** and scroll down and find in the Messages section your **MetaQuotes ID**.
+6) Add this ID to your Meta Trader 4 PC app on **Tools/Options/Notifications** at **MetaQuotes ID**.
 
 ## Tip Jar
 Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
