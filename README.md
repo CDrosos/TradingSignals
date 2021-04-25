@@ -40,4 +40,4 @@ Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQ
 7) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
 
 ## Tip Jar
-Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: 
+Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
