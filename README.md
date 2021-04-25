@@ -32,6 +32,7 @@ To access MetaTrader 4 installation folder:
 2) Click File / Open Data Folder
 
 Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder. Open MetaTrader 4, right click on the chart and select **Template/Load Template** and select *SMA20-MACO-RSI.tpl* file.
+
 Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
 Open MetaTrader 4 and add this Expert Advisor to your chart.
 
