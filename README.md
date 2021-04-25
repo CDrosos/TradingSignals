@@ -31,7 +31,7 @@ Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQ
 
 ## How to Setup Mobile Notifications:
 1) If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
-2) Open a Demo account on any Forex Broker like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
+2) Open a Demo account on any Forex Broker that supports MetaTrader 4 like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
 3) Download MetaTrader 4 and connect it with your Demo account
 4) Add this Expert Advisor to your chart, Make sure from the Expert Advisor Options that Mobile alerts are on.
 5) On your Mobile download the MetaTrader 4 App
