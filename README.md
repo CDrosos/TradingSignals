@@ -1,5 +1,5 @@
 # InvestAnswerIndicatorsSignals
-Indicators with settings from InvestAnswer Foudner James from https://www.patreon.com/InvestAnswers Fan made .
+Indicators with settings inspired from https://InvestAnswers.us Foudner James from https://www.patreon.com/InvestAnswers | Fan made .
 
 ## Login behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
@@ -21,10 +21,13 @@ I have implement 3 types of alerts.
 3) A mobile notification is sent for every alert
 
 ## Installation:
-You will need to install a custom indicator first. We need "MA crosses arrows or lines mtf+alerts.mq4", can be downloaded here: https://forex-station.com/app.php/attach/file/3269743
-You have to copy the *.mp4 file on "MQL4\Indicators" folder inside MetaTrader 4 installation. To access MetaTrader 4 installation folder:
+You will need to install a custom indicator first. We need "MA crosses arrows or lines mtf+alerts.mq4", tt is included here in the repository, Downloaded from here: https://forex-station.com/app.php/attach/file/3269743
+You have to copy the *3-ma-cross-with-alert-mtf.mq4* file on **MQL4\Indicators** folder inside MetaTrader 4 installation. 
+To access MetaTrader 4 installation folder:
 1) Open MetaTrader 4
 2) Click File / Open Data Folder
+Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder.
+Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
 
 ## How to Setup Mobile Notifications:
 1) If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
