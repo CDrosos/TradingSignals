@@ -31,13 +31,13 @@ Also included you will find a Template that will make your chart look like James
 Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
 
 ## How to Setup Mobile Notifications:
-1) If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
-2) Open a Demo account on any Forex Broker that supports MetaTrader 4 like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
-3) Download MetaTrader 4 and connect it with your Demo account
-4) Add this Expert Advisor to your chart, Make sure from the Expert Advisor Options that Mobile alerts are on.
-5) On your Mobile download the MetaTrader 4 App
-6) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID
-7) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
+If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
+1) Open a Demo account on any Forex Broker that supports MetaTrader 4 like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
+2) Download MetaTrader 4 and connect it with your Demo account
+3) Add this Expert Advisor to your chart, Make sure from the Expert Advisor Options that Mobile alerts are on.
+4) On your Mobile download the MetaTrader 4 App
+5) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID
+6) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
 
 ## Tip Jar
 Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
