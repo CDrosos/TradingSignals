@@ -21,22 +21,24 @@ I have implement 3 types of alerts.
 3) A mobile notification is sent for every alert
 
 ## Installation:
-You will need to install a custom indicator first. We need "MA crosses arrows or lines mtf+alerts.mq4", tt is included here in the repository, Downloaded from here: https://forex-station.com/app.php/attach/file/3269743
+If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
+1) Open a Demo account on any Forex Broker that supports MetaTrader 4 like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
+2) Download MetaTrader 4 and connect it with your Demo account.
+
+Now you will need to install a custom indicator. We need "MA crosses arrows or lines mtf+alerts.mq4", tt is included here in the repository, downloaded from here: https://forex-station.com/app.php/attach/file/3269743
 You have to copy the *3-ma-cross-with-alert-mtf.mq4* file on **MQL4\Indicators** folder inside MetaTrader 4 installation. 
 To access MetaTrader 4 installation folder:
 1) Open MetaTrader 4
 2) Click File / Open Data Folder
 
-Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder.
+Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder. Open MetaTrader 4, right click on the chart and select **Template/Load Template** and select *SMA20-MACO-RSI.tpl* file.
 Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
+Open MetaTrader 4 and add this Expert Advisor to your chart.
 
 ## How to Setup Mobile Notifications:
-If you dont already use MetaTrader 4 but you still want to have free notification signals follow those steps:
-1) Open a Demo account on any Forex Broker that supports MetaTrader 4 like ICMarkets here: https://www.icmarkets.com/global/en/open-trading-account/demo
-2) Download MetaTrader 4 and connect it with your Demo account
-3) Add this Expert Advisor to your chart, Make sure from the Expert Advisor Options that Mobile alerts are on.
-4) On your Mobile download the MetaTrader 4 App
-5) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID
+1) Make sure from the Expert Advisor's Options that Mobile alerts are on.
+4) On your Mobile download the MetaTrader 4 App.
+5) Press menu/Settigns and scroll down and find in the Messages section your MetaQuotes ID.
 6) Add this ID to your Meta Trader 4 PC app on Tools/Options/Notifications at MetaQuotes ID.
 
 ## Tip Jar
