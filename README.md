@@ -10,6 +10,8 @@ This ExpertAdvisor aims to alert the user for the following signals:
 4) When RSI is above 70, Sell signal. 
 5) When RSI is below 30, Buy signal. 
 
+All those signals are a sum of the strongest signals have shown us on his technical analysis videos here: https://www.patreon.com/InvestAnswers/posts?filters%5Btag%5D=Technical%20Analysis i'm open to suggestions and improvements.
+
 ## How to use it:
 James suggest to use Daily TimeFrame and he has demonstrated in his patreon videos https://www.patreon.com/InvestAnswers/posts?filters[tag]=Technical%20Analysis examples where those indicators was used for  Bitcoin, Ethereum, Google, Twitter, Gold etc.
 The Expert Advisor will always use as timeframe your current timeframe.
