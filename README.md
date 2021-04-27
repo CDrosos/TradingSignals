@@ -23,13 +23,20 @@ James suggest the following combinations:
 
 **Settings:**
 - RSI
+
   Period: 10
+  
   Price: Close
 - MACD
+
   Fast EMA Period: 8  
+  
   Slow EMA Period: 21  
+  
   Signal Period: 5
+  
   Price: Close
+  
   Mode: Signal
  
 **MACO** in this video https://www.youtube.com/watch?v=JwBnwIVqJ8M is used in:
