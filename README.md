@@ -25,6 +25,7 @@ James suggest the following combinations:
 RSI
 - Period: 10
 - Price: Close
+
 MACD
 - Fast EMA Period: 8  
 - Slow EMA Period: 21  
