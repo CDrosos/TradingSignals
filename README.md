@@ -22,22 +22,15 @@ James suggest the following combinations:
 **Timeframe:** 4 Hours
 
 **Settings:**
-- RSI
-
-  Period: 10
-  
-  Price: Close
-- MACD
-
-  Fast EMA Period: 8  
-  
-  Slow EMA Period: 21  
-  
-  Signal Period: 5
-  
-  Price: Close
-  
-  Mode: Signal
+RSI
+- Period: 10
+- Price: Close
+MACD
+- Fast EMA Period: 8  
+- Slow EMA Period: 21  
+- Signal Period: 5
+- Price: Close
+- Mode: Signal
  
 **MACO** in this video https://www.youtube.com/watch?v=JwBnwIVqJ8M is used in:
 
@@ -46,10 +39,9 @@ James suggest the following combinations:
 **Timeframe:** Daily
 
 **Settings:**
-
-Fast Moving Average Period: 50
-Slow Moving Average Period: 200
-Price: Close
+- Fast Moving Average Period: 50
+- Slow Moving Average Period: 200
+- Price: Close
 
 The Expert Advisor and all those indicators will always use as timeframe your current timeframe, so according to the combination you want to use enable/disable some indicators from the Expert Advisor options and select the appropriate timeframe.
 
