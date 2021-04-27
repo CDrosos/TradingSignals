@@ -22,6 +22,7 @@ James suggest the following combinations:
 **Timeframe:** 4 Hours
 
 **Settings:**
+
 RSI
 - Period: 10
 - Price: Close
