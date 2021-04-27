@@ -14,9 +14,13 @@ All those signals are a sum of the strongest signals have shown us on his techni
 
 ## How to use it:
 James suggest the following combinations:
+
 **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
+
 **Symbol:** BTCUSD, NEE, NVTA, PLTR, TTD, SNOW, BIDU, SHOP, ILMN
+
 **Timeframe:** 4 Hours
+
 **Settings:**
 - RSI
   Period: 10
@@ -29,9 +33,13 @@ James suggest the following combinations:
   Mode: Signal
  
 **MACO** in this video https://www.youtube.com/watch?v=JwBnwIVqJ8M is used in:
+
 **Symbol:** Bitcoin, Ethereum, Google, Twitter, Gold etc.
+
 **Timeframe:** Daily
+
 **Settings:**
+
 Fast Moving Average Period: 50
 Slow Moving Average Period: 200
 Price: Close
