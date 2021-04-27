@@ -4,17 +4,39 @@ Indicators with settings inspired from https://InvestAnswers.us Foudner James fr
 ## Logic behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
 
-1) When Moving Average Cross Indicator is Bullish (50 MA is above 200 MA) and price low is equal or below 200 MA, We get a Strong Buy signal.
-2) When Moving Average Cross Indicator is Bearish (50 MA is below 200 MA) and price high is equal or above 200 MA, We get a Sell signal.
-3) When Moving Average Cross Indicator's 50 MA Crossover 200 MA we get a Buy/Sell Signal.
+1) When Moving Average Crossover Indicator is Bullish (50 MA is above 200 MA) and price low is equal or below 200 MA, We get a Strong Buy signal.
+2) When Moving Average Crossover Indicator is Bearish (50 MA is below 200 MA) and price high is equal or above 200 MA, We get a Sell signal.
+3) When Moving Average Crossover Indicator's 50 MA Crossover 200 MA we get a Buy/Sell Signal.
 4) When RSI is above 70, Sell signal. 
 5) When RSI is below 30, Buy signal. 
 
 All those signals are a sum of the strongest signals have shown us on his technical analysis videos here: https://www.patreon.com/InvestAnswers/posts?filters%5Btag%5D=Technical%20Analysis i'm open to suggestions and improvements.
 
 ## How to use it:
-James suggest to use Daily TimeFrame and he has demonstrated in his patreon videos https://www.patreon.com/InvestAnswers/posts?filters[tag]=Technical%20Analysis examples where those indicators was used for  Bitcoin, Ethereum, Google, Twitter, Gold etc.
-The Expert Advisor will always use as timeframe your current timeframe.
+James suggest the following combinations:
+**RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
+**Symbol:** BTCUSD, NEE, NVTA, PLTR, TTD, SNOW, BIDU, SHOP, ILMN
+**Timeframe:** 4 Hours
+**Settings:**
+- RSI
+  Period: 10
+  Price: Close
+- MACD
+  Fast EMA Period: 8  
+  Slow EMA Period: 21  
+  Signal Period: 5
+  Price: Close
+  Mode: Signal
+ 
+**MACO** in this video https://www.youtube.com/watch?v=JwBnwIVqJ8M is used in:
+**Symbol:** Bitcoin, Ethereum, Google, Twitter, Gold etc.
+**Timeframe:** Daily
+**Settings:**
+Fast Moving Average Period: 50
+Slow Moving Average Period: 200
+Price: Close
+
+The Expert Advisor and all those indicators will always use as timeframe your current timeframe, so according to the combination you want to use enable/disable some indicators from the Expert Advisor options and select the appropriate timeframe.
 
 ## How to get Alerts:
 I have implement 3 types of alerts.
