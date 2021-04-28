@@ -7,8 +7,8 @@ This ExpertAdvisor aims to alert the user for the following signals:
 1) When Moving Average Crossover Indicator is Bullish (50 MA is above 200 MA) and price low is equal or below 200 MA, We get a Strong Buy signal.
 2) When Moving Average Crossover Indicator is Bearish (50 MA is below 200 MA) and price high is equal or above 200 MA, We get a Sell signal.
 3) When Moving Average Crossover Indicator's 50 MA Crossover 200 MA we get a Buy/Sell Signal.
-4) When RSI is above 70, Sell signal. 
-5) When RSI is below 30, Buy signal. 
+4) When RSI is below 30 or above 70, Buy/Sell signal. 
+5) When RSI is below 30 or above 70 and MACD crossover confirmed, Buy/Sell signal. If MACD crossover again, Close order singal.
 
 All those signals are a sum of the strongest signals have shown us on his technical analysis videos here: https://www.patreon.com/InvestAnswers/posts?filters%5Btag%5D=Technical%20Analysis i'm open to suggestions and improvements.
 
@@ -45,7 +45,14 @@ MACD
 - Slow Moving Average Period: 200
 - Price: Close
 
-The Expert Advisor and all those indicators will always use as timeframe your current timeframe, so according to the combination you want to use enable/disable some indicators from the Expert Advisor options and select the appropriate timeframe.
+## How to select signal combinations
+The Expert Advisor and all those indicators will always use as timeframe your current timeframe.
+
+Also the Expert Advisor have the following options:
+![image](https://user-images.githubusercontent.com/10176426/116484126-16bad780-a891-11eb-8189-21f660fa0255.png)
+
+- If you only want the RSI with MACD Combination, from **RSI with MACD Combination** select **RSI + MACD**  and set the **Enable Moving Averages CrossOver alerts (MACO)** to false.
+- If you want RSI signals and MACO signals, from **RSI with MACD Combination** select **RSI** and set the **Enable Moving Averages CrossOver alerts (MACO)** to true.
 
 ## How to get Alerts:
 I have implement 3 types of alerts.
@@ -79,6 +86,13 @@ Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswe
 1) Make sure from the Expert Advisor's Options that Email alerts are on.
 2) From MetaTrader 4, go to **Tools/Options/Email**.
 3) Add your email settings.
+
+## Templates:
+I have include 2 templates to try to match TradingView layout of James settings. **Notice:** Expert Advisor don't depend on those templates to work, as long as you have loaded the Expert Advisor to your chart, it will continue to work in any timeframe and any on screen indicator.
+# RSI 10 - MACD 8 21 5
+![image](https://user-images.githubusercontent.com/10176426/116484744-6948c380-a892-11eb-8e88-5d8fbcaade8a.png)
+# RSI 10 - SMA 20 - MACO 50 200
+![image](https://user-images.githubusercontent.com/10176426/116484962-d3616880-a892-11eb-8480-52f4e4592d5f.png)
 
 ## Tip Jar
 Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated :sparkling_heart:. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
