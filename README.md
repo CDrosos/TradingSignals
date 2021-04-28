@@ -15,7 +15,7 @@ All those signals are a sum of the strongest signals have shown us on his techni
 ## How to use it:
 James suggest the following combinations:
 
-### (coming soon) 1) **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
+### 1) **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
 
 **Symbol:** BTCUSD, NEE, NVTA, PLTR, TTD, SNOW, BIDU, SHOP, ILMN
 
@@ -88,7 +88,9 @@ Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswe
 3) Add your email settings.
 
 ## Templates:
-I have include 2 templates to try to match TradingView layout of James settings. **Notice:** Expert Advisor don't depend on those templates to work, as long as you have loaded the Expert Advisor to your chart, it will continue to work in any timeframe and any on screen indicator.
+I have include 2 templates to try to match TradingView layout of James settings. 
+
+**Notice:** Expert Advisor don't depend on those templates to work, as long as you have loaded the Expert Advisor to your chart, it will continue to work in any timeframe and any on screen indicator.
 # RSI 10 - MACD 8 21 5
 ![image](https://user-images.githubusercontent.com/10176426/116484744-6948c380-a892-11eb-8e88-5d8fbcaade8a.png)
 # RSI 10 - SMA 20 - MACO 50 200
