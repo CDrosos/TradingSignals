@@ -15,7 +15,7 @@ All those signals are a sum of the strongest signals have shown us on his techni
 ## How to use it:
 James suggest the following combinations:
 
-### 1) **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
+### (coming soon) 1) **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
 
 **Symbol:** BTCUSD, NEE, NVTA, PLTR, TTD, SNOW, BIDU, SHOP, ILMN
 
