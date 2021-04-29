@@ -1,5 +1,4 @@
-# InvestAnswerIndicatorsSignals
-Indicators with settings inspired from https://InvestAnswers.us Foudner James from https://www.patreon.com/InvestAnswers also you can find him on YouTube at https://www.youtube.com/channel/UClgJyzwGs-GyaNxUHcLZrkg | Fan made.
+# TradingSignals
 
 ## Logic behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
