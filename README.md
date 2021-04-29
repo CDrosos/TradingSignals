@@ -9,12 +9,11 @@ This ExpertAdvisor aims to alert the user for the following signals:
 4) When RSI is below 30 or above 70, Buy/Sell signal. 
 5) When RSI is below 30 or above 70 and MACD crossover confirmed, Buy/Sell signal. If MACD crossover again, Close order singal.
 
-All those signals are a sum of the strongest signals have shown us on his technical analysis videos here: https://www.patreon.com/InvestAnswers/posts?filters%5Btag%5D=Technical%20Analysis i'm open to suggestions and improvements.
+All those signals are a sum of the strongest signals have shown us on technical analysis..
 
 ## How to use it:
-James suggest the following combinations:
 
-### 1) **RSI & MACD** in this video https://www.youtube.com/watch?v=aPkGDuHC4_o are used in:
+### 1) **RSI & MACD** are used in:
 
 **Symbol:** BTCUSD, NEE, NVTA, PLTR, TTD, SNOW, BIDU, SHOP, ILMN
 
@@ -33,7 +32,7 @@ MACD
 - Price: Close
 - Mode: Signal
  
-### 2) **MACO** in this video https://www.youtube.com/watch?v=JwBnwIVqJ8M is used in:
+### 2) **MACO** is used in:
 
 **Symbol:** Bitcoin, Ethereum, Google, Twitter, Gold etc.
 
@@ -72,7 +71,7 @@ To access MetaTrader 4 installation folder:
 
 Also included you will find a Template that will make your chart look like James chart with RSI 20, MACross 50 and 200 and Simple Moving Average 10. To install it you have to put the *SMA20-MACO-RSI.tpl* file on **templates** folder. Open MetaTrader 4, right click on the chart and select **Template/Load Template** and select *SMA20-MACO-RSI.tpl* file.
 
-Finally, the Expert Advisor file *InvestAnswerSignals.mq4* should placed on **MQL4\Experts**
+Finally, the Expert Advisor file *TradingSignals.mq4* should placed on **MQL4\Experts**
 Open MetaTrader 4, click on **View/Navigator** and double click on **InvestAnswersSignlas** from Expert Advisors tab to add this Expert Advisor to your chart. Once you included in your chart, it will show some options you can configure like where to get signal alerts or what settings to use on the Moving Average's.
 
 ## How to Setup Mobile Notifications:
