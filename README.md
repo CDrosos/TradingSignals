@@ -43,6 +43,17 @@ MACD
 - Slow Moving Average Period: 200
 - Price: Close
 
+### 3) **Bolinder Bands** is used in:
+
+**Symbol:** ETHUSDT, ADAUSD, TSLA, MSTR, PLTR, TWLO, GME
+
+**Timeframe:** 2H, 4H
+
+**Settings:**
+- Period: 100
+- Deviators: 2
+- Price: Close
+
 ## How to select signal combinations
 The Expert Advisor and all those indicators will always use as timeframe your current timeframe.
 
@@ -105,6 +116,9 @@ I have include 2 templates.
 ![image](https://user-images.githubusercontent.com/10176426/116484744-6948c380-a892-11eb-8e88-5d8fbcaade8a.png)
 # RSI 10 - SMA 20 - MACO 50 200
 ![image](https://user-images.githubusercontent.com/10176426/116484962-d3616880-a892-11eb-8480-52f4e4592d5f.png)
+# RSI 10 - Bolinder Bands 100 2
+![image](https://user-images.githubusercontent.com/10176426/118894363-c1f90280-b90c-11eb-94c3-0227f0181877.png)
+
 
 ## Tip Jar
 Donations to motivate me to continue improoving this Expert Advisor are greatly appreciated :sparkling_heart:. If you want to find out how to tip me, check my profile page here: https://github.com/CDrosos
