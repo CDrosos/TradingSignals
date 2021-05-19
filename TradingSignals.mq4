@@ -35,6 +35,13 @@ enum ENUM_RsiMACD
    RSI = 1,// RSI Only
    RSI_With_MACD = 2, // RSI + MACD
   };
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+input bool BB_Enable=true; // Enable Bolinder Bands alerts (BB)
+input int BB_Period=100;//BB Period
+input int BB_Deviators=2;//BB Deviators
+input ENUM_APPLIED_PRICE BB_AppliedPrice=PRICE_CLOSE; //BB Applied price
 // RSI
 input ENUM_RsiMACD RSI_MACD=RSI_With_MACD; // RSI with MACD combination
 //input bool RSI_Enable=true; // Enable Relative Strength Index alerts (RSI)
@@ -151,6 +158,22 @@ double GetMACDSignal()
   }
 
 //+------------------------------------------------------------------+
+//|     Get Current Bolinder Bands Value                             |
+//+------------------------------------------------------------------+
+int GetBB()
+  {
+   double upperBands = iBands(NULL,0,BB_Period,BB_Deviators,0,BB_AppliedPrice,1,0);
+   double lowerBands = iBands(NULL,0,BB_Period,BB_Deviators,0,BB_AppliedPrice,2,0);
+   double currentClosePrice = iClose(NULL,0,0);
+   //Print("upperBands "+upperBands+" lowerBands "+lowerBands);
+   if(currentClosePrice > upperBands)
+      return 1;
+   if(currentClosePrice < lowerBands)
+      return -1;
+   return 0;
+  }
+
+//+------------------------------------------------------------------+
 //|     Get Current RSI Value                                        |
 //+------------------------------------------------------------------+
 double GetRSI()
@@ -181,6 +204,9 @@ string GetIndicatorsAlertMessages()
 
    if(MACO_Enable)
       returnMessage += GetMACrossAlertMessage();
+
+   if(BB_Enable)
+      returnMessage += GetBBAlertMessage();
 
    return returnMessage;
   }
@@ -227,7 +253,7 @@ string GetRSIWithMACDAlertMessages()
    string returnMessage = "";
    double MACDLineValue = GetMACDLine();
    double MACDSignalValue = GetMACDSignal();
-   //Print("MACDLineValue "+MACDLineValue+" MACDSignalValue "+MACDSignalValue);
+//Print("MACDLineValue "+MACDLineValue+" MACDSignalValue "+MACDSignalValue);
 
    if(RSI_MACD_Current_Condition == Default)
      {
@@ -323,6 +349,22 @@ string GetMACrossAlertMessage()
   }
 
 //+------------------------------------------------------------------+
+//|     Get BB Alert Message                                         |
+//+------------------------------------------------------------------+
+string GetBBAlertMessage()
+  {
+   string returnMessage = "";
+
+   int currentBBValue = GetBB();
+   if(currentBBValue == 1)
+      returnMessage += "Close price is above the upper Bolinder Band zone, Sell Signal. ";
+   if(currentBBValue == -1)
+      returnMessage += "Close price is below the lower Bolinder Band zone, Buy Signal. ";
+
+   return returnMessage;
+  }
+
+//+------------------------------------------------------------------+
 //|     Check For Signals                                            |
 //+------------------------------------------------------------------+
 void CheckForSignals()
@@ -405,10 +447,4 @@ void OnTick()
   }
 
 //+------------------------------------------------------------------+
-//+------------------------------------------------------------------+
-
-//+------------------------------------------------------------------+
-
-//+------------------------------------------------------------------+
-
 //+------------------------------------------------------------------+
