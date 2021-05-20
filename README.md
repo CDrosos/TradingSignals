@@ -8,6 +8,7 @@ This ExpertAdvisor aims to alert the user for the following signals:
 3) When Moving Average Crossover Indicator's 50 MA Crossover 200 MA we get a Buy/Sell Signal.
 4) When RSI is below 30 or above 70, Buy/Sell signal. 
 5) When RSI is below 30 or above 70 and MACD crossover confirmed, Buy/Sell signal. If MACD crossover again, Close order singal.
+6) When close price is above Bolinder Bands upper limit or below Bolinder Bands lower limit, Sell/Buy signal. 
 
 All those signals are a sum of the strongest signals have shown us on technical analysis..
 
