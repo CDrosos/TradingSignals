@@ -1,4 +1,5 @@
 # TradingSignals
+An expert advisor for MetaTrader 4 
 
 ## Logic behind this EA:
 This ExpertAdvisor aims to alert the user for the following signals:
