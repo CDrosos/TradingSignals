@@ -9,7 +9,7 @@ This ExpertAdvisor aims to alert the user for the following signals:
 3) When Moving Average Crossover Indicator's 50 MA Crossover 200 MA we get a Buy/Sell Signal.
 4) When RSI is below 30 or above 70, Buy/Sell signal. 
 5) When RSI is below 30 or above 70 and MACD crossover confirmed, Buy/Sell signal. If MACD crossover again, Close order singal.
-6) When close price is above Bolinder Bands upper limit or below Bolinder Bands lower limit, Sell/Buy signal. 
+6) When close price is above Bollinger Bands upper limit or below Bollinger Bands lower limit, Sell/Buy signal. 
 
 All those signals are a sum of the strongest signals have shown us on technical analysis..
 
@@ -45,7 +45,7 @@ MACD
 - Slow Moving Average Period: 200
 - Price: Close
 
-### 3) **Bolinder Bands** is used in:
+### 3) **Bollinger Bands** is used in:
 
 **Symbol:** ETHUSDT, ADAUSD, TSLA, MSTR, PLTR, TWLO, GME
 
@@ -118,7 +118,7 @@ I have include 2 templates.
 ![image](https://user-images.githubusercontent.com/10176426/116484744-6948c380-a892-11eb-8e88-5d8fbcaade8a.png)
 # RSI 10 - SMA 20 - MACO 50 200
 ![image](https://user-images.githubusercontent.com/10176426/116484962-d3616880-a892-11eb-8480-52f4e4592d5f.png)
-# RSI 10 - Bolinder Bands 100 2
+# RSI 10 - Bollinger Bands 100 2
 ![image](https://user-images.githubusercontent.com/10176426/118894363-c1f90280-b90c-11eb-94c3-0227f0181877.png)
 
 
